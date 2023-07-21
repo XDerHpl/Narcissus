@@ -119,7 +119,7 @@ def narcissus_gen(dataset_path = dataset_path, lab = lab):
 
     # Batch_grad
     condition = True
-    noise = torch.zeros((1, 3, noise_size, noise_size), device=device)
+    noise = torch.zeros((1, 3, noise_size, noise_size), device=device)#一张三通道的32x32的图片
 
 
     surrogate_model = surrogate_model
